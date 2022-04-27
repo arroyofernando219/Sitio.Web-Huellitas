@@ -107,13 +107,9 @@ body {
     align-items: center;
 }
 .section--productos div img {
-    width: 330px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     padding: 0 15% 2% 15%;
-    transition: 1s;
-}
-.section--productos:hover img {
-    transform: scale(1.1);
 }
 
 /* productos */
