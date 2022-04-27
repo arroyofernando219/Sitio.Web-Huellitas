@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- tipografia Noto Serif 400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/65f70c6162.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="../Media/icons/logo.png" alt="logo"/>
+        <a class="open__sidebar" href="#sidebar">
+            <i class="header__icono fas fa-bars"></i>
+        </a>
+        <nav id="sidebar">
+            <ul class="header__menu">
+                <li><a class="menu__enlaces" href="../index.html">Inicio</a></li>
+                <li><a class="menu__enlaces" href="productos.html">Productos</a></li>
+                <li><a class="menu__enlaces" href="institucional.html">Institucional</a></li>
+                <li><a class="menu__enlaces" href="contacto.html">Contacto</a></li>
+                <li><a class="menu__enlaces item__oculto" href="#">X</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contacto">
+        <img src="../Media/img/istockphoto-653058128-612x612.jpg" alt="">
+        <form class="fomulario" action="" method="" enctype="">
+            <div>
+                <label for="apellido"></label>
+                <input type="text" id="" name=""
+                placeholder="APELLIDO">
+            </div> 
+            <div>
+                <label for="nombre"></label>
+                <input type="text" id="" name=""
+                placeholder="NOMBRE">
+            </div>
+            <div>
+                <label for="e-mail"></label>
+                <input type="text" id="" name=""
+                placeholder="E-MAIL">
+            </div> 
+            <div class="area__texto">
+                <textarea placeholder="Ingrese su comentario"></textarea>
+            </div>
+            <div>Tipo de comentario:</div>
+            <div class="contacto__tipocomentario">
+                <label for="tipo_comentario">Sugerencia</label>
+                <input type="radio" name="tipo_comentario" value="sugerencia"/>
+                <label for="tipo_comentario">Queja</label>
+                <input type="radio" name="tipo_comentario" value="queja"/>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="../Media/icons/logo.png" alt="logo"/>
+        <p>© Copyright 2022 <span>Huellitas</span> S.A. Todos los derechos reservados</p>
+        <nav>
+            <ul class="footer__redes">
+                <li><a href="https://www.instagram.com/" target="_blank">
+                    <i class="iconos__redes fab fa-instagram"></i> 
+                </a></li>
+                <li><a href="https://twitter.com/" target="_blank">
+                    <i class="iconos__redes fab fa-twitter"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">
+                    <i class="iconos__redes fab fa-facebook-f"></i>
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
