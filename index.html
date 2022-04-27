@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Inicio</title>
+    <!-- tipografia Noto Serif 400 / kreon 400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon&family=Noto+Serif&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/65f70c6162.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="Media/icons/logo.png" alt="logo"/>
+        <a class="open__sidebar" href="#sidebar">
+            <i class="header__icono fas fa-bars"></i>
+        </a>
+        <nav id="sidebar">
+            <ul class="header__menu">
+                <li><a class="menu__enlaces" href="index.html">Inicio</a></li>
+                <li><a class="menu__enlaces" href="#productos">Productos</a></li>
+                <li><a class="menu__enlaces" href="pages/institucional.html">Institucional</a></li>
+                <li><a class="menu__enlaces" href="pages/contacto.html">Contacto</a></li>
+                <li><a class="menu__enlaces item__oculto" href="#">X</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main__index">
+        <section class="section">
+            <article>
+                <h2>Subtitulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio modi quam eaque aliquid repellat quisquam explicabo beatae veniam veritatis nam expedita, itaque repudiandae laborum dicta delectus recusandae tempore quasi quis!</p>
+            </article>
+            <img class="section1__img" src="Media/img/img-section1.jpg" alt="alimento balanceado"/>
+        </section>
+        <section class="section">
+            <article class="main__articuloIndex">
+                <h2>Subtitulo 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, atque. Quidem laborum eum aut, pariatur fuga quibusdam minima? Reprehenderit earum necessitatibus nisi. Quae, voluptatum dicta molestias commodi ut non ea!</p>
+            </article>    
+            <div class="section2__img">
+                <img src="Media/img/img-section2.jpg" alt="fablica"/>
+                <img src="Media/img/materia prima.jpg" alt="cereal"/>
+            </div>
+        </section>
+            
+        <section class="section--productos">
+            <div id="productos">
+                <h2>Balanceados</h2>
+            </div>
+            <div class="section--productos animaciones">
+                <a href="pages/productos.html#producto1">
+                    <img src="Media/img/imag-1-gato.jpg" alt="gato comiendo"/>
+                </a>
+                <a href="pages/productos.html#producto2">
+                    <img src="Media/img/imag-2-perro.jpg" alt="perro comiendo"/>
+                </a>
+                <a href="pages/productos.html#producto3">
+                    <img src="Media/img/imag-3-conejo.jpg.jpg" alt="conejo comiendo"/>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img class="footer__logo" src="Media/icons/logo.png" alt="logo"/>
+        <p>© Copyright 2022 <span>Huellitas</span> S.A. Todos los derechos reservados</p>
+        <nav>
+            <ul class="footer__redes">
+                <li><a href="https://www.instagram.com/" target="_blank">
+                    <i class="iconos__redes fab fa-instagram"></i>
+                </a></li>
+                <li><a href="https://twitter.com/" target="_blank">
+                    <i class="iconos__redes fab fa-twitter"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">
+                    <i class="iconos__redes fab fa-facebook-f"></i>
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
