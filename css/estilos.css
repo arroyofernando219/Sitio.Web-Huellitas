@@ -60,28 +60,32 @@ body {
     background-color: #43c0ff;
     color: white;
     font-size: 18px;
-    text-align: justify;
+    /* text-align: justify;
+    text-align: center;
+    padding: 16px 5% 45px 5%;
+    margin-right: 3%;text-align: justify;
     text-align: center;
     padding: 16px 5% 45px 5%;
     margin-right: 3%;
     margin-left: 3%;
+    margin-left: 3%; */
 }
-.section {
+/* .section {
     padding: 25px;
     margin-top: 4%;
     margin-bottom: 10px;
-}
+} */
 .section1__img {
     width: 50%;
     margin: auto;
     display: block;
 }
-.section2__img {
+/* .section2__img {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-}
+} */
 .section2__img img {
     width: 590px;
     height: 430px;
