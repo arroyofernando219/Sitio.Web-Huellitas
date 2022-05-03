@@ -35,15 +35,17 @@
     <main class="contacto">
         <img src="../Media/img/istockphoto-653058128-612x612.jpg" alt="">
         <form class="fomulario" action="" method="" enctype="">
-            <div class="mb-1">
-                <label for="apellido" class="form-label"></label>
-                <input type="text" class="form-control" id="" name=""
-                placeholder="APELLIDO">
-            </div> 
-            <div class="mb-1">
-                <label for="nombre"></label>
-                <input type="text" class="form-control" id="" name=""
-                placeholder="NOMBRE">
+            <div class="row">
+                <div class="col mb-1">
+                    <label for="apellido" class="form-label"></label>
+                    <input type="text" class="form-control" id="" name=""
+                    placeholder="APELLIDO">
+                </div> 
+                <div class="col mb-1">
+                    <label for="nombre"></label>
+                    <input type="text" class="form-control" id="" name=""
+                    placeholder="NOMBRE">
+                </div>
             </div>
             <div class="mb-1">
                 <label for="e-mail"></label>
@@ -53,15 +55,19 @@
             <div class="area__texto">
                 <textarea placeholder="Ingrese su comentario"></textarea>
             </div>
-            <div>Tipo de comentario:</div>
-            <div class="contacto__tipocomentario">
-                <label for="tipo_comentario">Sugerencia</label>
-                <input type="radio" name="tipo_comentario" value="sugerencia"/>
-                <label for="tipo_comentario">Queja</label>
-                <input type="radio" name="tipo_comentario" value="queja"/>
+            <div class="col-form-label  pt-0">Tipo de comentario:</div>
+            <div class="form-check">
+                <div>
+                    <label class="form-check-label" for="tipo_comentario">Sugerencia</label>
+                    <input class="form-check-input" type="radio" name="tipo_comentario" value="sugerencia"/>
+                </div>
+                <div>
+                    <label class="form-check-label" for="tipo_comentario">Queja</label>
+                    <input class="form-check-input" type="radio" name="tipo_comentario" value="queja"/>
+                </div>
             </div>
             <div>
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </div>
         </form>
     </main>

@@ -159,18 +159,12 @@ body {
     flex-flow: row wrap;
 }
 .contacto img {
-    width: 35%;
-    padding-top: 5%;
+    width: 32%;
+    padding-top: 4%;
 }
 main form {
-    padding-top: 4%;
-    padding-left: 20%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-}
-main form div {
-    padding-bottom: 3%;
+    /* padding-top: 4%;
+    padding-left: 20%; */
 }
 .area__texto textarea {
     width: 350px;
