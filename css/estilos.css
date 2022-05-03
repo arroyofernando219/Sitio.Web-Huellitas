@@ -51,73 +51,42 @@ body {
 /* index */
 .main__index h2 {
     /* titulos de las 3 section del index */
-    text-align: justify;
-    text-align: center;
     font-size: 35px;
-    padding-bottom: 20px;
 }
 .main__index article {
     background-color: #43c0ff;
     color: white;
     font-size: 18px;
-    /* text-align: justify;
-    text-align: center;
-    padding: 16px 5% 45px 5%;
-    margin-right: 3%;text-align: justify;
-    text-align: center;
-    padding: 16px 5% 45px 5%;
-    margin-right: 3%;
-    margin-left: 3%;
-    margin-left: 3%; */
+    padding: 2%;
 }
-/* .section {
-    padding: 25px;
-    margin-top: 4%;
-    margin-bottom: 10px;
-} */
+.section {
+    padding: 4%;
+}
 .section1__img {
-    width: 50%;
-    margin: auto;
-    display: block;
+    width: 55%;
 }
-/* .section2__img {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-} */
 .section2__img img {
-    width: 590px;
-    height: 430px;
-    padding-right: 4%;
-    padding-bottom: 2%;
-    padding-left: 4%;
+    width: 500px;
+    height: 400px;
 }
 .section--productos {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    padding: 4%;
 }
 .section--productos h2 {
     font-family: 'Kreon', serif;
     background-color: #ffcd43;
     color: white;
-    padding: 1% 35% 1% 35%;
-    margin: 3% 1% 0 1%;
-}
-.section--productos div {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    padding: 1%;
+    margin-bottom: 5%;
 }
 .section--productos div img {
-    width: 350px;
-    height: 350px;
-    padding: 0 15% 2% 15%;
-    transition: 1s;
+    width: 380px;
+    height: 380px;
+    padding: 3%;
+    transition: 0.5s;
 }
 .section--productos:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* productos */
@@ -168,25 +137,19 @@ body {
 /* institucional */
 .main__institucional {
     background-color: #ff824340;
-    margin: 5% 8% auto 8%;
+    margin: 4%;
 }
 .main__institucional h2 {
-    text-align: justify;
-    text-align: center;
     font-size: 35px;
     padding-bottom: 2%;
 }
 .main__institucional article {
     font-size: 18px;
-    text-align: justify;
-    text-align: center;
-    padding: 3% 5% 3% 5%;
+    padding: 4%;
 }
 .main__institucional img {
-    width: 30%;
-    padding-bottom: 3%;
-    margin: auto;
-    display: block;
+    width: 25rem;
+    padding-bottom: 4%;
 }
 
 /* contacto */
@@ -383,9 +346,9 @@ form button {
 
 @media screen and (max-width: 810px) {
    /* index */
-    .section1__img {
+    /* .section1__img {
         width: 80%;
-    }
+    } */
 
 /* productos */
 .section__productos {
