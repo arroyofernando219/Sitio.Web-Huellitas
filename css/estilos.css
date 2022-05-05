@@ -354,6 +354,10 @@ form button {
     .section1__img {
         width: 300px;
     }
+.section--productos div img {
+    width: 250px;
+    height: 250px;
+}
 
 /* productos */
 .section__productos {
