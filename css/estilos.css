@@ -10,44 +10,21 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-.header {
-    background-color: #ff8243;
+nav {
     box-shadow: 3px 2px 5px black;
-    /* width: 100%; */
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
 }
 .header__logo {
-    width: 18%;
-    margin: auto;
-    display: block;
+    width: 16rem;
+    margin-left:  15%;
 }
-.header ul {
-    background-color: #43c0ff;
-    font-size: 20px;
-    padding: 0.2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-}
-.header li {
-    padding-right: 1%;
-    padding-left: 1%;
+.header__menu {
+    background-color: #ff8243;
 }
 .menu__enlaces {
-    color: white;
-    text-decoration: none;
-}
-/* sidebar */
-.header i {
-    display: none;
-}
-.item__oculto {
-    display: none;
+    background-color: #43c0ff;
+    border-radius: 20px;
+    margin-right: 2%;
+    font-size: 18px;
 }
 
 /* index */
