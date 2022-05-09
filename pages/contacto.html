@@ -18,18 +18,35 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__logo" src="../Media/icons/logo.png" alt="logo"/>
-        <a class="open__sidebar" href="#sidebar">
-            <i class="header__icono fas fa-bars"></i>
-        </a>
-        <nav id="sidebar">
-            <ul class="header__menu">
-                <li><a class="menu__enlaces" href="../index.html">Inicio</a></li>
-                <li><a class="menu__enlaces" href="productos.html">Productos</a></li>
-                <li><a class="menu__enlaces" href="institucional.html">Institucional</a></li>
-                <li><a class="menu__enlaces" href="contacto.html">Contacto</a></li>
-                <li><a class="menu__enlaces item__oculto" href="#">X</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light header__menu">
+            <a class="navbar-brand" href="../index.html">
+                <img class="header__logo" src="../Media/icons/logo.png" alt="logo"/> 
+            </a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbar"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbar">
+                <ul class="navbar-nav mr-auto menu__enlaces shadow">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="institucional.html">Institucional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main class="contacto">
@@ -72,7 +89,7 @@
         </form>
     </main>
     <footer class="footer">
-        <img class="footer__logo" src="../Media/icons/logo.png" alt="logo"/>
+        <!-- <img class="footer__logo" src="../Media/icons/logo.png" alt="logo"/>
         <p>© Copyright 2022 <span>Huellitas</span> S.A. Todos los derechos reservados</p>
         <nav>
             <ul class="footer__redes">
@@ -86,7 +103,28 @@
                     <i class="iconos__redes fab fa-facebook-f"></i>
                 </a></li>
             </ul>
-        </nav>
+        </nav> -->
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <img class="footer__logo" src="../Media/icons/logo.png" alt="logo"/>
+            </div>
+            <div class="col-9">
+                <ul class="list-inline">
+                    <li class="list-inline-item p-3"><a href="https://www.instagram.com/" target="_blank">
+                        <i class="iconos__redes fab fa-instagram"></i>
+                    </a></li>
+                    <li class="list-inline-item p-3"><a href="https://twitter.com/" target="_blank">
+                        <i class="iconos__redes fab fa-twitter"></i>
+                    </a></li>
+                    <li class="list-inline-item p-3"><a href="https://www.facebook.com/" target="_blank">
+                        <i class="iconos__redes fab fa-facebook-f"></i>
+                    </a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-12 col-md-12  text-center align-items-end">
+                <p class="text-white footer__texto">© Copyright 2022 <span>Huellitas</span> S.A. Todos los derechos reservados</p>
+            </div>
     </footer>
 </body>
 </html>

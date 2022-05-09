@@ -7,7 +7,7 @@
     <title>Huellitas - Inicio</title>
     <!-- tipografia Noto Serif 400 / kreon 400 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.comtext-align: center;" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kreon&family=Noto+Serif&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/estilos.css">
     <!-- Iconos -->
@@ -32,7 +32,7 @@
             </button>
             
             <div class="collapse navbar-collapse justify-content-end" id="navbar">
-                <ul class="navbar-nav mr-auto menu__enlaces">
+                <ul class="navbar-nav mr-auto menu__enlaces shadow">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="index.html">Inicio</a>
                     </li>
@@ -87,22 +87,28 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <img class="footer__logo" src="Media/icons/logo.png" alt="logo"/>
-        <p>© Copyright 2022 <span>Huellitas</span> S.A. Todos los derechos reservados</p>
-        <nav>
-            <ul class="footer__redes">
-                <li><a href="https://www.instagram.com/" target="_blank">
+    <footer class="footer ">
+        <div class="row">
+        <div class="col-12 col-md-3">
+            <img class="footer__logo" src="Media/icons/logo.png" alt="logo"/>
+        </div>
+        <div class="col-9">
+            <ul class="list-inline">
+                <li class="list-inline-item p-3"><a href="https://www.instagram.com/" target="_blank">
                     <i class="iconos__redes fab fa-instagram"></i>
                 </a></li>
-                <li><a href="https://twitter.com/" target="_blank">
+                <li class="list-inline-item p-3"><a href="https://twitter.com/" target="_blank">
                     <i class="iconos__redes fab fa-twitter"></i>
                 </a></li>
-                <li><a href="https://www.facebook.com/" target="_blank">
+                <li class="list-inline-item p-3"><a href="https://www.facebook.com/" target="_blank">
                     <i class="iconos__redes fab fa-facebook-f"></i>
                 </a></li>
             </ul>
-        </nav>
+        </div>
+        </div>
+        <div class="col-12 col-md-12  text-center align-items-end">
+            <p class="text-white footer__texto">© Copyright 2022 <span>Huellitas</span> S.A. Todos los derechos reservados</p>
+        </div>
     </footer>
 </body>
 </html>
