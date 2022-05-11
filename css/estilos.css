@@ -238,9 +238,6 @@ main form {
     padding-top: 6%;
     padding-left: 10%;
 }
-main form div {
-    padding-bottom: 8%;
-}
 .area__texto textarea {
     width: 240px;
     height: 155px;
@@ -329,7 +326,6 @@ form button {
 }
 main form {
     padding-left:   5%;
-    margin-right: 5%;
 }
 
 /* footer */
