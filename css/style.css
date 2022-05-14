@@ -6,6 +6,18 @@
 body {
   font-family: 'Noto Serif', serif; }
 
+.header__menu {
+  background-color: #ff8243;
+  box-shadow: 3px 2px 5px black; }
+  .header__menu div a .header__logo {
+    width: 16rem;
+    margin-left: 15%; }
+  .header__menu div div .menu__enlaces {
+    background-color: #43c0ff;
+    border-radius: 25px;
+    margin-right: 2%;
+    font-size: 18px; }
+
 .main__institucional {
   background-color: #ff824340;
   margin: 4%; }
