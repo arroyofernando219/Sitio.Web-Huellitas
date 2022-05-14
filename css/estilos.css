@@ -22,7 +22,7 @@ nav {
 }
 .menu__enlaces {
     background-color: #43c0ff;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-right: 2%;
     font-size: 18px;
     
@@ -166,7 +166,7 @@ main div button {
 }
 .footer__texto {
     background-color: #43c0ff;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 768px) {
