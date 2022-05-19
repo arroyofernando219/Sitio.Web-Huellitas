@@ -31,6 +31,39 @@ body {
     background-color: #43c0ff;
     border-radius: 25px; }
 
+.main__index {
+  padding: 4%; }
+  .main__index section {
+    padding-bottom: 8%; }
+    .main__index section article {
+      background-color: #43c0ff;
+      color: white;
+      font-size: 18px;
+      padding: 2%; }
+      .main__index section article h2 {
+        font-size: 35px; }
+    .main__index section .section1__img {
+      width: 55%; }
+    .main__index section .section2__img img {
+      width: 500px;
+      height: 400px;
+      padding: 1%; }
+  .main__index .section--productos {
+    padding: 0; }
+    .main__index .section--productos div h2 {
+      font-family: 'Kreon', serif;
+      background-color: #ffcd43;
+      color: white;
+      padding: 1%;
+      margin-bottom: 5%; }
+    .main__index .section--productos div a img {
+      width: 350px;
+      height: 350px;
+      margin: 2%;
+      transition: 0.5s; }
+  .main__index .section--productos:hover img {
+    transform: scale(1.05); }
+
 .section__productos {
   background-color: #ff824340;
   padding: 3% 10% 3% 8%;
@@ -75,7 +108,15 @@ body {
     width: 30rem;
     padding: 4%; }
 
-.formulario div div img {
-  width: 50%;
-  height: 70%;
-  padding-top: 4%; }
+.contacto {
+  display: flex;
+  flex-flow: row wrap; }
+  .contacto div div img {
+    width: 50%;
+    height: 70%;
+    padding-top: 4%; }
+  .contacto div div .formulario div .area__texto {
+    width: 350px;
+    height: 200px; }
+  .contacto div div .formulario button {
+    margin-top: 5%; }

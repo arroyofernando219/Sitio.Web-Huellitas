@@ -1,0 +1,52 @@
+.main__index {
+    padding: 4%;
+    section {
+        padding-bottom: 8%;
+        article {
+            background-color: #43c0ff;
+            color: white;
+            font-size: 18px;
+            padding: 2%;
+            h2 {
+                font-size: 35px;
+            }
+        }
+        .section1__img {
+            width: 55%;
+        }
+        .section2__img img {
+            width: 500px;
+            height: 400px;
+            padding: 1%;
+        }
+    }
+    .section--productos {
+        padding: 0;
+        div {
+            h2 {
+                font-family: 'Kreon', serif;
+                background-color: #ffcd43;
+                color: white;
+                padding: 1%;
+                margin-bottom: 5%;
+            }
+        }
+        div {
+            a {
+                img {
+                    width: 350px;
+                    height: 350px;
+                    margin: 2%;
+                    transition: 0.5s;
+                }
+                
+            }
+        }
+        
+        
+        
+    }
+    .section--productos:hover img {
+        transform: scale(1.05);
+        }
+}
