@@ -1,0 +1,17 @@
+.footer {
+    background-color: $naranja;
+    div {
+        .footer__logo {
+            width: 30%;
+        }
+        .iconos__redes {
+        color: white;
+        font-size: 2.2rem;
+        list-style: none;
+        }
+        .footer__texto {
+            background-color: #43c0ff;
+            border-radius: 25px;
+        }
+    }
+}

@@ -16,7 +16,20 @@ body {
     background-color: #43c0ff;
     border-radius: 25px;
     margin-right: 2%;
+    padding: 0 1%;
     font-size: 18px; }
+
+.footer {
+  background-color: #ff8243; }
+  .footer div .footer__logo {
+    width: 30%; }
+  .footer div .iconos__redes {
+    color: white;
+    font-size: 2.2rem;
+    list-style: none; }
+  .footer div .footer__texto {
+    background-color: #43c0ff;
+    border-radius: 25px; }
 
 .main__institucional {
   background-color: #ff824340;

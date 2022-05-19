@@ -1,6 +1,9 @@
 @import "partials/base";
+@import "partials/colors";
 @import "partials/typography";
 // HEADER
 @import "header";
+// FOOTER
+@import "footer";
 // PAGINAS
-@import "institucional";
+@import "pages/institucional";
