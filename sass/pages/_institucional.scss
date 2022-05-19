@@ -1,16 +1,16 @@
 .main__institucional {
     background-color: $background-seccion;
     margin: 4%;
-    &:h2 {
+    h2 {
         font-size: 35px;
-        padding-bottom: 2%;
+        padding: 2%;
     }
-    &:article {
+    article {
         font-size: 18px;
-        padding: 4%;
+        padding: 0 10%;
     }
-    &:img {
-        width: 25rem;
-        padding-bottom: 4%;
+    img {
+        width: 30rem;
+        padding: 4%;
     }
 }
