@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
-@mixin barraCeleste {
+@mixin barraCeleste($header) {
     background-color: $celeste;
     border-radius: 25px;
+
+    @if ($header == "yes") {
+        margin-right: 2%;
+        padding: 0 1%;
+        font-size: $fontsize_article;
+    }
 }
+

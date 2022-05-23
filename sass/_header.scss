@@ -10,10 +10,10 @@
         }
         div {
             .menu__enlaces {
-                @include barraCeleste;
-                margin-right: 2%;
-                padding: 0 1%;
-                font-size: $fontsize_article;
+                @include barraCeleste("yes");
+                // margin-right: 2%;
+                // padding: 0 1%;
+                // font-size: $fontsize_article;
             }
         }
     }

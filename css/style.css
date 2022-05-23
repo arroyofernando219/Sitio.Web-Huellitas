@@ -31,6 +31,11 @@ body {
     background-color: #43c0ff;
     border-radius: 25px; }
 
+.name {
+  color: white;
+  font-size: 2.2rem;
+  list-style: none; }
+
 .main__index {
   padding: 4%; }
   .main__index section {

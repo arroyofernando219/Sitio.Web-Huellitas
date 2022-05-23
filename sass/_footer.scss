@@ -10,7 +10,20 @@
         list-style: none;
         }
         .footer__texto {
-            @include barraCeleste;
+            @include barraCeleste("");
         }
+    }
+}
+
+// MAPS!!
+$redes: (
+        iconos__redes: white,
+);
+
+@each $name, $color in $redes {
+    .#{name} {
+        color: $color;
+        font-size: 2.2rem;
+        list-style: none;
     }
 }
