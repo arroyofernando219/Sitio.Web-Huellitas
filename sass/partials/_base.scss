@@ -4,3 +4,7 @@
     box-sizing: border-box;
 }
 
+@mixin barraCeleste {
+    background-color: $celeste;
+    border-radius: 25px;
+}

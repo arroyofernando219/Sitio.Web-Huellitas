@@ -10,8 +10,7 @@
         list-style: none;
         }
         .footer__texto {
-            background-color: #43c0ff;
-            border-radius: 25px;
+            @include barraCeleste;
         }
     }
 }

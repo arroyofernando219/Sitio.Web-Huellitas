@@ -66,7 +66,7 @@ body {
 
 .section__productos {
   background-color: #ff824340;
-  padding: 3% 10% 3% 8%;
+  padding: 3% 10%;
   margin-top: 5%;
   margin-bottom: 10%;
   display: grid;
@@ -89,11 +89,13 @@ body {
     grid-area: img3; }
   .section__productos .producto__descripcion {
     grid-area: art;
-    font-size: 120%;
+    font-size: 18px;
     padding-left: 5%;
     text-align: center;
     justify-self: center;
     align-self: center; }
+  .section__productos:last-child {
+    margin-bottom: 5%; }
 
 .main__institucional {
   background-color: #ff824340;
@@ -112,11 +114,14 @@ body {
   display: flex;
   flex-flow: row wrap; }
   .contacto div div img {
-    width: 50%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     padding-top: 4%; }
-  .contacto div div .formulario div .area__texto {
-    width: 350px;
-    height: 200px; }
-  .contacto div div .formulario button {
-    margin-top: 5%; }
+  .contacto div div form {
+    padding: 10% 0; }
+    .contacto div div form div textarea {
+      width: 350px;
+      height: 200px; }
+    .contacto div div form button {
+      padding: 5px;
+      margin-top: 5%; }

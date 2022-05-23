@@ -4,21 +4,23 @@
     div {
         div {
             img {
-                width: 50%;
-                height: 70%;
+                width: 60%;
+                height: 60%;
                 padding-top: 4%;
             }
         }
         div {
-            .formulario {
+            form {
+                padding: 10% 0;
                 div {
-                    .area__texto {
+                    textarea {
                         width: 350px;
                         height: 200px;
                     }
                 }
                 
                 button {
+                    padding: 5px;
                     margin-top: 5%;
                 }
             } 

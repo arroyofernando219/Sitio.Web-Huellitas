@@ -1,6 +1,6 @@
 .section__productos {
     background-color: #ff824340;
-    padding: 3% 10% 3% 8%;
+    padding: 3% 10%;
     margin-top: 5%;
     margin-bottom: 10%;
     display: grid;
@@ -31,10 +31,13 @@
     }
     .producto__descripcion {
         grid-area: art;
-        font-size: 120%;
+        font-size: $fontsize_article;
         padding-left: 5%;
         text-align: center;
         justify-self: center;
         align-self: center;
+    }
+    &:last-child {
+    margin-bottom: 5%;
     }
 }

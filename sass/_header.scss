@@ -1,5 +1,5 @@
 .header__menu {
-    background-color: #ff8243;
+    background-color: $naranja;
     box-shadow: 3px 2px 5px black;
     div {
         a {
@@ -10,11 +10,10 @@
         }
         div {
             .menu__enlaces {
-                background-color: #43c0ff;
-                border-radius: 25px;
+                @include barraCeleste;
                 margin-right: 2%;
                 padding: 0 1%;
-                font-size: 18px;
+                font-size: $fontsize_article;
             }
         }
     }
