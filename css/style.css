@@ -119,14 +119,14 @@ body {
   display: flex;
   flex-flow: row wrap; }
   .contacto div div img {
-    width: 60%;
-    height: 60%;
+    width: 66%;
+    height: 64%;
     padding-top: 4%; }
   .contacto div div form {
-    padding: 10% 0; }
+    padding: 12% 0; }
     .contacto div div form div textarea {
       width: 350px;
-      height: 200px; }
+      height: 208px; }
     .contacto div div form button {
       padding: 5px;
-      margin-top: 5%; }
+      margin-top: 8%; }
