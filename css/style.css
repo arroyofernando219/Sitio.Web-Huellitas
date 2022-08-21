@@ -104,7 +104,7 @@ body {
 
 .main__institucional {
   background-color: #ff824340;
-  margin: 4%; }
+  margin: 4% 10%; }
   .main__institucional h2 {
     font-size: 35px;
     padding: 2%; }
@@ -112,7 +112,7 @@ body {
     font-size: 18px;
     padding: 0 10%; }
   .main__institucional img {
-    width: 30rem;
+    width: 35rem;
     padding: 4%; }
 
 .contacto {
