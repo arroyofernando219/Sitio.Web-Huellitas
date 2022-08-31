@@ -52,7 +52,13 @@ body {
     .main__index section .section2__img img {
       width: 500px;
       height: 400px;
-      padding: 1%; }
+      padding: 2%; }
+    @media screen and (max-width: 500px) {
+      .main__index section .section1__img {
+        width: 80%; }
+      .main__index section .section2__img img {
+        width: 300px;
+        height: 200px; } }
   .main__index .section--productos {
     padding: 0; }
     .main__index .section--productos div h2 {
