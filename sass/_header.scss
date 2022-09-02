@@ -7,6 +7,14 @@
                 width: 16rem;
                 margin-left:  15%;
             }
+
+            // MEDIA Q MOBIL
+            @media screen and (max-width:500px) {
+                .header__logo {
+                    width: 12rem;
+                    margin-left: 3%;
+                }
+            }
         }
         div {
             .menu__enlaces {
@@ -17,5 +25,4 @@
             }
         }
     }
-    
 }

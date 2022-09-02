@@ -12,6 +12,10 @@ body {
   .header__menu div a .header__logo {
     width: 16rem;
     margin-left: 15%; }
+  @media screen and (max-width: 500px) {
+    .header__menu div a .header__logo {
+      width: 12rem;
+      margin-left: 3%; } }
   .header__menu div div .menu__enlaces {
     background-color: #43c0ff;
     border-radius: 25px;
