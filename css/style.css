@@ -74,6 +74,11 @@ body {
       transition: 0.5s; }
   .main__index .section--productos:hover img {
     transform: scale(1.05); }
+  @media screen and (max-width: 500px) {
+    .main__index .section--productos div a img {
+      width: 250px;
+      height: 250px;
+      margin: 1%; } }
 
 .section__productos {
   background-color: #ff824340;

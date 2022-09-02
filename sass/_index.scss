@@ -17,20 +17,18 @@
         .section2__img img {
             width: 500px;
             height: 400px;
-            padding: 2%;
-            
-            
+            padding: 2%; 
         }
-        
+
         @media screen and (max-width:500px) {
-                .section1__img {
-                    width: 80%;
-                }
-                .section2__img img {
-                    width: 300px;
-                    height: 200px;
-                }
+            .section1__img {
+                width: 80%;
             }
+            .section2__img img {
+                width: 300px;
+                height: 200px;
+            }
+        }
     }
     .section--productos {
         padding: 0;
@@ -58,4 +56,14 @@
     .section--productos:hover img {
         transform: scale(1.05);
         }
+
+    @media screen and (max-width:500px) {
+        
+        .section--productos div a img {
+            width: 250px;
+            height: 250px;
+            margin: 1%;
+        }    
+    }
+
 }
